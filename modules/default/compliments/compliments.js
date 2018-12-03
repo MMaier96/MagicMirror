@@ -21,14 +21,10 @@ Module.register("compliments", {
 				"Hast du gut geschlafen? 😴"
 			],
 			afternoon: [
-				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴",
-				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴",
-				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴"
+				"Guten Morgen.\nHast du gut geschlafen? 😴"
 			],
 			evening: [
-				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴",
-				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴",
-				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴"
+				"Guten Morgen.\nHast du gut geschlafen? 😴"
 			]
 		},
 		updateInterval: 30000,
