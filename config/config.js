@@ -38,17 +38,6 @@ var config = {
 			position: "top_center"
 		},
 		{
-		  module: "MMM-NowPlayingOnSpotify",
-		  position: "top_left",
-
-		  config: {
-		    clientID: "8af1a1d9ae1f4518ab979d879ca549b3",
-		    clientSecret: "855e9805e9424ac5a4e2310a95ed548a",
-		    accessToken: "BQBzWM9bDlivbV_XXOHSi1-5T9ITDDRl2ayDFZtMATYB4xNTAgBA9zXCt4yphtZyzLHzR8EQ0xTLYlU161zpNsTo5JSiXmglMtJJIaSRAspTDRugh-iUgfH3ywTYgoOVEdHHPI_WQbnADjGSJXwevyMSVRi6",
-		    refreshToken: "AQAd_IRB2ZVNeBZsAw6gZbWYOAG7Hmz5JNrZ1WS2RPXkLmP3MSE85hDfHl1HSvPmzbujWq8hytJxM2K5iTo7xgP1FgfH05Y8tgdcA0WWcFqBTWPzavVVRYuiNmvv6v_lnsKCZw"
-		  }
-		},
-		{
 			module: "calendar",
 			header: "Google Kalender",
 			position: "top_right",
@@ -77,6 +66,17 @@ var config = {
 				locationID: "3220898",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
 				appid: "b1017b8a868e42a7928639ee0b98df6f"
 			}
+		},
+		{
+		  module: "MMM-NowPlayingOnSpotify",
+		  position: "top_left",
+
+		  config: {
+		    clientID: "8af1a1d9ae1f4518ab979d879ca549b3",
+		    clientSecret: "855e9805e9424ac5a4e2310a95ed548a",
+		    accessToken: "BQBzWM9bDlivbV_XXOHSi1-5T9ITDDRl2ayDFZtMATYB4xNTAgBA9zXCt4yphtZyzLHzR8EQ0xTLYlU161zpNsTo5JSiXmglMtJJIaSRAspTDRugh-iUgfH3ywTYgoOVEdHHPI_WQbnADjGSJXwevyMSVRi6",
+		    refreshToken: "AQAd_IRB2ZVNeBZsAw6gZbWYOAG7Hmz5JNrZ1WS2RPXkLmP3MSE85hDfHl1HSvPmzbujWq8hytJxM2K5iTo7xgP1FgfH05Y8tgdcA0WWcFqBTWPzavVVRYuiNmvv6v_lnsKCZw"
+		  }
 		},
 		{
 			module: "newsfeed",
