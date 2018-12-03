@@ -13,7 +13,7 @@ Module.register("currentweather",{
 	defaults: {
 		location: false,
 		locationID: false,
-		appid: "762e6bd418938d14f8e001400f2a0e53",
+		appid: "b1017b8a868e42a7928639ee0b98df6f",
 		units: config.units,
 		updateInterval: 10 * 60 * 1000, // every 10 minutes
 		animationSpeed: 1000,

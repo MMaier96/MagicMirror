@@ -60,7 +60,7 @@ var config = {
 			config: {
 				location: "Würzburg",
 				locationID: "3220898",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
-				appid: "762e6bd418938d14f8e001400f2a0e53"
+				appid: "b1017b8a868e42a7928639ee0b98df6f"
 			}
 		},
 		{
@@ -70,7 +70,7 @@ var config = {
 			config: {
 				location: "Würzburg",
 				locationID: "3220898",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "762e6bd418938d14f8e001400f2a0e53"
+				appid: "b1017b8a868e42a7928639ee0b98df6f"
 			}
 		},
 		{
