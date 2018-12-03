@@ -59,21 +59,21 @@ var config = {
 			position: "lower_third"
 		},
 		{
-			module: "currentweather",
-			position: "top_left",
-			config: {
-				location: "Würzburg",
-				locationID: "3220898",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
-				appid: "b1017b8a868e42a7928639ee0b98df6f"
-			}
-		},
-		{
 			module: "weatherforecast",
 			position: "top_left",
 			header: "Weather Forecast",
 			config: {
 				location: "Würzburg",
 				locationID: "3220898",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "b1017b8a868e42a7928639ee0b98df6f"
+			}
+		},
+		{
+			module: "currentweather",
+			position: "top_left",
+			config: {
+				location: "Würzburg",
+				locationID: "3220898",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
 				appid: "b1017b8a868e42a7928639ee0b98df6f"
 			}
 		},
