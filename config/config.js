@@ -24,6 +24,26 @@ var config = {
 	language: "de",
 	timeFormat: 24,
 	units: "metric",
+	compliments: {
+			anytime: [
+				"Hallo Marcel!"
+			],
+			morning: [
+				"Guten Morgen ☺",
+				"Enjoy your day!",
+				"How was your sleep?"
+			],
+			afternoon: [
+				"Hello, beauty!",
+				"You look sexy!",
+				"Looking good today!"
+			],
+			evening: [
+				"Wow, you look hot!",
+				"You look nice!",
+				"Hi, sexy!"
+			]
+		},
 
 	modules: [
 		{
