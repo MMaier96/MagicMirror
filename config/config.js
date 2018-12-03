@@ -40,7 +40,7 @@ var config = {
 		{
 			module: "calendar",
 			header: "Google Kalender",
-			position: "top_left",
+			position: "top_right",
 			config: {
 				calendars: [
 					{
@@ -56,7 +56,7 @@ var config = {
 		},
 		{
 			module: "currentweather",
-			position: "top_right",
+			position: "top_left",
 			config: {
 				location: "Würzburg",
 				locationID: "3220898",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
@@ -65,7 +65,7 @@ var config = {
 		},
 		{
 			module: "weatherforecast",
-			position: "top_right",
+			position: "top_left",
 			header: "Weather Forecast",
 			config: {
 				location: "Würzburg",
@@ -81,6 +81,14 @@ var config = {
 					{
 						title: "Heise Deutschland",
 						url: "https://www.heise.de/newsticker/heise-atom.xml"
+					},
+					{
+						title: "Chip Online Deutschland",
+						url: "http://www.chip.de/rss/rss_topnews.xml"
+					},
+					{
+						title: "Computerbild Deutschland",
+						url: "https://www.computerbild.de/rssfeed_2261.html?node=10"
 					}
 				],
 				showSourceTitle: true,
