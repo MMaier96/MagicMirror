@@ -173,7 +173,7 @@ sup {
 .region.top .container:empty {
   margin-bottom: 0;
 }
-.region.bottom{
+.region.bottom.bar{
   width: 70%;
 }
 .region.top.center,
