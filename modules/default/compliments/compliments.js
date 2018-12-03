@@ -12,10 +12,10 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hey there sexy!"
+				"Hallo Marcel!"
 			],
 			morning: [
-				"Good morning, handsome!",
+				"Wunderschönen Guten Morgen! ☺ :) &#128522; &#1F60A;",
 				"Enjoy your day!",
 				"How was your sleep?"
 			],
