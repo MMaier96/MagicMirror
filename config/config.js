@@ -59,16 +59,6 @@ var config = {
 			position: "lower_third"
 		},
 		{
-			module: "weatherforecast",
-			position: "top_left",
-			header: "Weather Forecast",
-			config: {
-				location: "Würzburg",
-				locationID: "3220898",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "b1017b8a868e42a7928639ee0b98df6f"
-			}
-		},
-		{
 			module: "currentweather",
 			position: "top_left",
 			config: {
