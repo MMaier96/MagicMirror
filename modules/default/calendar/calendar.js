@@ -24,9 +24,9 @@ Module.register("calendar", {
 		fade: true,
 		urgency: 7,
 		timeFormat: "relative",
-		dateFormat: "MMM Do",
+		dateFormat: "Do",
 		dateEndFormat: "HH:mm",
-		fullDayEventDateFormat: "MMM Do",
+		fullDayEventDateFormat: "Do",
 		showEnd: true,
 		getRelative: 0,
 		fadePoint: 0.25, // Start on 1/4th of the list.

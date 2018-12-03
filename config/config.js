@@ -35,7 +35,7 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_right"
+			position: "top_center"
 		},
 		{
 			module: "calendar",
