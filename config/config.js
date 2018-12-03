@@ -68,15 +68,15 @@ var config = {
 			}
 		},
 		{
-		  module: "MMM-NowPlayingOnSpotify",
-		  position: "top_left",
+			 module: "MMM-NowPlayingOnSpotify", 
+			 position: "top_left",
 
-		  config: {
-		    clientID: "8af1a1d9ae1f4518ab979d879ca549b3",
-		    clientSecret: "855e9805e9424ac5a4e2310a95ed548a",
-		    accessToken: "BQBzWM9bDlivbV_XXOHSi1-5T9ITDDRl2ayDFZtMATYB4xNTAgBA9zXCt4yphtZyzLHzR8EQ0xTLYlU161zpNsTo5JSiXmglMtJJIaSRAspTDRugh-iUgfH3ywTYgoOVEdHHPI_WQbnADjGSJXwevyMSVRi6",
-		    refreshToken: "AQAd_IRB2ZVNeBZsAw6gZbWYOAG7Hmz5JNrZ1WS2RPXkLmP3MSE85hDfHl1HSvPmzbujWq8hytJxM2K5iTo7xgP1FgfH05Y8tgdcA0WWcFqBTWPzavVVRYuiNmvv6v_lnsKCZw"
-		  }
+	 		 config: {
+   				 clientID: "8af1a1d9ae1f4518ab979d879ca549b3",
+   				 clientSecret: "855e9805e9424ac5a4e2310a95ed548a",
+   				 accessToken: "BQBfxiJneeYfxhV3cK_O4pJ0zjDev0wQhx5SsfZBoNemLYvJJwGGS9Y4utTwOUVPhu5D4415X7yXR4pgwxn4LaQ1lzPeSYx94dzIautBYjgn62t3TO2sn5swmC6b6OzTu4vywseYWZ1rL7T8nTaBG2dJj-Ln",
+   				 refreshToken: "AQC9wuY6VJ2W-oXNmXpzotodOgWn9EbecSPNlIhhLDblyKFMeT8rLmeYOvmtPxyUIfiVFMnZmn3nfplvkqOEGsjGEzYdNrWGyJZYJmkWFL7Qlm_AEOt3txOBJOo9pBM9OswhGg"
+  			}
 		},
 		{
 			module: "newsfeed",
