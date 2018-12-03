@@ -12,7 +12,7 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hallo Marcel!"
+				"Hallo Marcel! ☺ :) &#128522; &#1F60A;"
 			],
 			morning: [
 				"Wunderschönen Guten Morgen! ☺ :) &#128522; &#1F60A;",
@@ -20,9 +20,9 @@ Module.register("compliments", {
 				"How was your sleep?"
 			],
 			afternoon: [
-				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
+				"Hello, beauty! ☺ :) &#128522; &#1F60A;",
+				"You look sexy! ☺ :) &#128522; &#1F60A;",
+				"Looking good today! ☺ :) &#128522; &#1F60A;"
 			],
 			evening: [
 				"Wow, you look hot!",
