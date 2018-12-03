@@ -52,14 +52,14 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_center"
+			position: "top_right"
 		},
 		{
 			module: "compliments",
 			position: "lower_third"
 		},
 		{
-			 module: "MMM-NowPlayingOnSpotify", 
+			 module: "MMM-NowPlayingOnSpotify",
 			 position: "top_left",
 
 	 		 config: {
