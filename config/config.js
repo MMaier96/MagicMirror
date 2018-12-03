@@ -34,10 +34,6 @@ var config = {
 			position: "top_bar"
 		},
 		{
-			module: "clock",
-			position: "top_center"
-		},
-		{
 			module: "calendar",
 			header: "Google Kalender",
 			position: "top_right",
@@ -55,17 +51,12 @@ var config = {
 			}
 		},
 		{
-			module: "compliments",
-			position: "lower_third"
+			module: "clock",
+			position: "top_center"
 		},
 		{
-			module: "currentweather",
-			position: "top_left",
-			config: {
-				location: "Würzburg",
-				locationID: "3220898",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
-				appid: "b1017b8a868e42a7928639ee0b98df6f"
-			}
+			module: "compliments",
+			position: "lower_third"
 		},
 		{
 		  module: "MMM-NowPlayingOnSpotify",
@@ -77,6 +68,15 @@ var config = {
 		    accessToken: "BQBzWM9bDlivbV_XXOHSi1-5T9ITDDRl2ayDFZtMATYB4xNTAgBA9zXCt4yphtZyzLHzR8EQ0xTLYlU161zpNsTo5JSiXmglMtJJIaSRAspTDRugh-iUgfH3ywTYgoOVEdHHPI_WQbnADjGSJXwevyMSVRi6",
 		    refreshToken: "AQAd_IRB2ZVNeBZsAw6gZbWYOAG7Hmz5JNrZ1WS2RPXkLmP3MSE85hDfHl1HSvPmzbujWq8hytJxM2K5iTo7xgP1FgfH05Y8tgdcA0WWcFqBTWPzavVVRYuiNmvv6v_lnsKCZw"
 		  }
+		},
+		{
+			module: "currentweather",
+			position: "top_left",
+			config: {
+				location: "Würzburg",
+				locationID: "3220898",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
+				appid: "b1017b8a868e42a7928639ee0b98df6f"
+			}
 		},
 		{
 			module: "newsfeed",
