@@ -175,6 +175,7 @@ sup {
 }
 .region.bottom.bar{
   width: 70%;
+  left: 15%;
 }
 .region.top.center,
 .region.bottom.center {
