@@ -27,15 +27,6 @@ var config = {
 
 	modules: [
 		{
-			module: "MMM-CalendarWeek",
-			position: "bottom_bar",	// This can be any of the regions. Best results in bottom region.
-			config: {
-				// The config property is optional.
-				// If no config is set, an example calendar is shown.
-				// See 'Configuration options' for more information.
-			}
-		},
-		{
 			module: "alert",
 		},
 		{
@@ -54,7 +45,7 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check-o ",
-						url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+						url: "https://calendar.google.com/calendar/ical/developing.mmaier96%40gmail.com/private-dbf97047c1c9e1c434850d60180dcad0/basic.ics"
 					}
 				]
 			}
