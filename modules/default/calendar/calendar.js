@@ -21,13 +21,13 @@ Module.register("calendar", {
 		wrapEvents: false, // wrap events to multiple lines breaking at maxTitleLength
 		fetchInterval: 5 * 60 * 1000, // Update every 5 minutes.
 		animationSpeed: 2000,
-		fade: true,
+		fade: false,
 		urgency: 7,
 		timeFormat: "absolute",
 		dateFormat: "",
 		dateEndFormat: "HH:mm",
-		fullDayEventDateFormat: "Do.MMM",
-		showEnd: true,
+		fullDayEventDateFormat: "Do MMM",
+		showEnd: false,
 		getRelative: 0,
 		fadePoint: 0.25, // Start on 1/4th of the list.
 		hidePrivate: false,
