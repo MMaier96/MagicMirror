@@ -26,9 +26,9 @@ Module.register("compliments", {
 				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
+				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴",
+				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴",
+				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴"
 			]
 		},
 		updateInterval: 30000,
