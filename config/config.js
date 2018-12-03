@@ -24,7 +24,7 @@ var config = {
 	language: "de",
 	timeFormat: 24,
 	units: "metric",
-	
+
 	modules: [
 		{
 			module: "alert",
@@ -60,7 +60,7 @@ var config = {
 			config: {
 				location: "Würzburg",
 				locationID: "3220898",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				appid: "762e6bd418938d14f8e001400f2a0e53"
 			}
 		},
 		{
@@ -70,7 +70,7 @@ var config = {
 			config: {
 				location: "Würzburg",
 				locationID: "3220898",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				appid: "762e6bd418938d14f8e001400f2a0e53"
 			}
 		},
 		{
