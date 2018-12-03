@@ -13,7 +13,7 @@ Module.register("MMM-CalendarWeek", {
 	// Define module defaults
 	defaults: {
 		maximumEntries: 20, // Total Maximum Entries
-		maximumNumberOfDays: 4,
+		maximumNumberOfDays: 20,
 		displaySymbol: true,
 		defaultSymbol: "calendar", // Fontawesome Symbol see http://fontawesome.io/cheatsheet/
 		displayRepeatingCountTitle: false,
@@ -24,7 +24,7 @@ Module.register("MMM-CalendarWeek", {
 		wrapEvents: false, // wrap events to multiple lines breaking at maxTitleLength
 		fetchInterval: 5 * 60 * 1000, // Update every 5 minutes.
 		animationSpeed: 2000,
-		urgency: 10,
+		urgency: 7,
 		timeFormat: "dateheaders",
 		dateFormat: "dddd Do MMM",
 		fullDayEventDateFormat: "MMM Do",
