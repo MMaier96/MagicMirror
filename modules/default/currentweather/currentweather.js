@@ -316,7 +316,7 @@ Module.register("currentweather",{
 		var retry = true;
 
 		var weatherRequest = new XMLHttpRequest();
-		console.log(url);
+		Log.console.error(url);
 		weatherRequest.open("GET", url, true);
 		weatherRequest.onreadystatechange = function() {
 			if (this.readyState === 4) {
