@@ -39,7 +39,7 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "Google Kalender",
 			position: "top_left",
 			config: {
 				calendars: [
@@ -79,8 +79,8 @@ var config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "Heise Deutschland",
+						url: "https://www.heise.de/newsticker/heise-atom.xml"
 					}
 				],
 				showSourceTitle: true,
