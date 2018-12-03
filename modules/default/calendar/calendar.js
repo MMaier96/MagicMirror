@@ -28,7 +28,7 @@ Module.register("calendar", {
 		dateEndFormat: "HH:mm",
 		fullDayEventDateFormat: "MMM Do",
 		showEnd: true,
-		getRelative: 6,
+		getRelative: 0,
 		fadePoint: 0.25, // Start on 1/4th of the list.
 		hidePrivate: false,
 		hideOngoing: false,
