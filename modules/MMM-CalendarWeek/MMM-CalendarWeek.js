@@ -24,7 +24,7 @@ Module.register("MMM-CalendarWeek", {
 		wrapEvents: false, // wrap events to multiple lines breaking at maxTitleLength
 		fetchInterval: 5 * 60 * 1000, // Update every 5 minutes.
 		animationSpeed: 2000,
-		urgency: 7,
+		urgency: 10,
 		timeFormat: "dateheaders",
 		dateFormat: "dddd Do MMM",
 		fullDayEventDateFormat: "MMM Do",
