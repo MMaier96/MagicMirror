@@ -23,10 +23,10 @@ Module.register("calendar", {
 		animationSpeed: 2000,
 		fade: true,
 		urgency: 7,
-		timeFormat: "relative",
-		dateFormat: "Do",
+		timeFormat: "absolute",
+		dateFormat: "MMM Do",
 		dateEndFormat: "HH:mm",
-		fullDayEventDateFormat: "Do",
+		fullDayEventDateFormat: "MMM Do",
 		showEnd: true,
 		getRelative: 0,
 		fadePoint: 0.25, // Start on 1/4th of the list.
