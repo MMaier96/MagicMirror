@@ -15,9 +15,10 @@ Module.register("compliments", {
 				"Hallo Marcel! \nIch grüße dich 😋"
 			],
 			morning: [
-				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴",
-				"Enjoy your day!",
-				"How was your sleep?"
+				"Wunderschönen guten Morgen, Marcel",
+				"Carpe Diem 🙌",
+				"Genieße deinen Tag 🐥",
+				"Hast du gut geschlafen? 😴"
 			],
 			afternoon: [
 				"Wunderschönen Guten Morgen Marcel.\nHast du gut geschlafen? 😴",
