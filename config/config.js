@@ -46,6 +46,10 @@ var config = {
 					{
 						symbol: "calendar-check-o ",
 						url: "https://calendar.google.com/calendar/ical/developing.mmaier96%40gmail.com/private-dbf97047c1c9e1c434850d60180dcad0/basic.ics"
+					},
+					{
+						symbol: "bell-o ",
+						url: "https://calendar.google.com/calendar/ical/de.german%23holiday%40group.v.calendar.google.com/public/basic.ics"
 					}
 				]
 			}
