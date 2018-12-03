@@ -173,7 +173,9 @@ sup {
 .region.top .container:empty {
   margin-bottom: 0;
 }
-
+.region.bottom{
+  width: 70%;
+}
 .region.top.center,
 .region.bottom.center {
   left: 50%;
@@ -205,8 +207,7 @@ sup {
 }
 
 .region.bar {
-  left: 15%;
-  width: 70%;
+  width: 100%;
   text-align: left;
 }
 
