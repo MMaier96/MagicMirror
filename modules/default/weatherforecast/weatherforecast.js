@@ -13,7 +13,7 @@ Module.register("weatherforecast",{
 	defaults: {
 		location: false,
 		locationID: false,
-		appid: "",
+		appid: "b1017b8a868e42a7928639ee0b98df6f",
 		units: config.units,
 		maxNumberOfDays: 7,
 		showRainAmount: false,
@@ -251,6 +251,7 @@ Module.register("weatherforecast",{
 
 		var weatherRequest = new XMLHttpRequest();
 		weatherRequest.open("GET", url, true);
+		console.log(url);
 		weatherRequest.onreadystatechange = function() {
 			if (this.readyState === 4) {
 				if (this.status === 200) {
