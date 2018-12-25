@@ -12,3 +12,82 @@
  body {
  	
  }
+
+.time.bright.large.light {
+    position: fixed;
+    top: 10px;
+    left: calc(50% - 100px);
+    width: 200px;
+}
+
+.date.normal.medium {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.currentweather .normal.medium {
+    visibility: hidden;
+}
+
+span.dimmed.feallike {
+    visibility: visible;
+    font-size: 0.8em;
+    position: fixed;
+    right: 10px;
+    top: 111px;
+}
+
+div#module_6_currentweather{
+	position: fixed !important;
+	top: 13px;
+	right: 10px;
+}
+
+span.wi.weathericon.wi-night-cloudy {
+    display: block;
+    position: absolute;
+    right: 0px;
+    font-size: 0.7em;
+}
+span.bright.temp {
+    margin-right: 77px;
+}
+
+.NPOS_logoImage {
+    display: none;
+}
+.small.spotify {
+    position: fixed;
+    top: 170px;
+    right: 10px;
+    width: 300px;
+}
+tr.normal {
+    height: 20px !important;
+    overflow: hidden;
+}
+
+td.title.bright {
+    width: 173px;
+    display: inline-block;
+}
+td.time.light {
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    height: 20px;
+    overflow: hidden;
+}
+div#module_2_calendar {
+    width: 350px;
+    position: fixed !important;
+    left: 10px;
+    top: 10px;
+    height: 147px;
+    overflow: hidden;
+}
+span.wi.weathericon.wi-day-cloudy {
+    position: absolute;
+    right: 0px;
+    top: 41px;
+}

@@ -12,23 +12,23 @@ Module.register("MMM-CalendarWeek", {
 
 	// Define module defaults
 	defaults: {
-		maximumEntries: 20, // Total Maximum Entries
-		maximumNumberOfDays: 20,
-		displaySymbol: true,
+		maximumEntries: 3, // Total Maximum Entries
+		maximumNumberOfDays: 3,
+		displaySymbol: false,
 		defaultSymbol: "calendar", // Fontawesome Symbol see http://fontawesome.io/cheatsheet/
 		displayRepeatingCountTitle: false,
 		defaultRepeatingCountTitle: "",
 		displayLocation: false,
 		displayDescription: false,
-		maxTitleLength: 30,
+		maxTitleLength: 3,
 		wrapEvents: false, // wrap events to multiple lines breaking at maxTitleLength
 		fetchInterval: 5 * 60 * 1000, // Update every 5 minutes.
 		animationSpeed: 2000,
-		urgency: 7,
+		urgency: 3,
 		timeFormat: "dateheaders",
 		dateFormat: "dddd Do MMM",
 		fullDayEventDateFormat: "MMM Do",
-		getRelative: 6,
+		getRelative: 3,
 		hidePrivate: false,
 		hideOngoing: false,
 		hideEmptyDays: false,
@@ -37,7 +37,7 @@ Module.register("MMM-CalendarWeek", {
 		allowDuplicate: false,
 		maximumDaysPerLine: null,
 		coloredSymbolOnly: false,
-		tableClass: "small",
+		tableClass: "xsmall",
 		calendars: [
 			{
 				symbol: "calendar",

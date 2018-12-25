@@ -34,7 +34,7 @@ Module.register("calendar", {
 		hideOngoing: false,
 		colored: false,
 		coloredSymbolOnly: false,
-		tableClass: "small",
+		tableClass: "xsmall",
 		calendars: [
 			{
 				symbol: "calendar",

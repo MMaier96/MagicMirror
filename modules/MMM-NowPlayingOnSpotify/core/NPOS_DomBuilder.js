@@ -20,7 +20,7 @@ class NPOS_DomBuilder {
 
   getWrapper(content) {
     let wrapper = document.createElement('div');
-    wrapper.className = 'small';
+    wrapper.className = 'small spotify';
     wrapper.appendChild(content);
 
     return wrapper;
@@ -83,18 +83,12 @@ class NPOS_DomBuilder {
   getPlayingContent(context) {
     let content = document.createElement('div');
 
-    if (this.config.showCoverArt) {
-      content.appendChild(this.getCoverArtDiv(context.imgURL));
-    } else {
-      content.appendChild(this.getIconImage('NPOS_logoImage'));
-    }
+   
 
     content.appendChild(this.getInfoDiv('fa fa-music', context.songTitle));
     content.appendChild(this.getInfoDiv('fa fa-user', context.artist));
     content.appendChild(this.getInfoDiv('fa fa-folder', context.album));
     content.appendChild(this.getInfoDiv(this.getPlayStatusIcon(context.isPlaying), this.getTimeInfo(context)));
-    content.appendChild(this.getProgressBar(context));
-    content.appendChild(this.getInfoDiv('', context.deviceName));
 
     return content;
   }
@@ -119,13 +113,15 @@ class NPOS_DomBuilder {
     let infoDiv = document.createElement('div');
     infoDiv.className = 'NPOS_infoText';
 
+    infoDiv.appendChild(document.createTextNode(text + "   "));
+    
     if (symbol) {
       let icon = document.createElement('i');
       icon.className = 'NPOS_icon ' + symbol;
       infoDiv.appendChild(icon);
     }
 
-    infoDiv.appendChild(document.createTextNode(text));
+    
 
     return infoDiv;
   }

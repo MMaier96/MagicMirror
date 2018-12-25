@@ -9,13 +9,13 @@
  */
 
 var config = {
-	address: "localhost", // Address to listen on, can be:
+	address: "0.0.0.0", // Address to listen on, can be:
 	                      // - "localhost", "127.0.0.1", "::1" to listen on loopback interface
 	                      // - another specific IPv4/6 to listen on a specific interface
 	                      // - "", "0.0.0.0", "::" to listen on any interface
 	                      // Default, when address config is left out, is "localhost"
 	port: 8080,
-	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"], // Set [] to allow all IP addresses
+	ipWhitelist: [], // Set [] to allow all IP addresses
 	                                                       // or add a specific IPv4 of 192.168.1.5 :
 	                                                       // ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.1.5"],
 	                                                       // or IPv4 range of 192.168.3.0 --> 192.168.3.15 use CIDR format :
@@ -36,7 +36,7 @@ var config = {
 		{
 			module: "calendar",
 			header: "Google Kalender",
-			position: "top_right",
+			position: "top_left",
 			config: {
 				calendars: [
 					{
@@ -60,7 +60,7 @@ var config = {
 		},
 		{
 			 module: "MMM-NowPlayingOnSpotify",
-			 position: "top_left",
+			 position: "top_right",
 
 	 		 config: {
    				 clientID: "8af1a1d9ae1f4518ab979d879ca549b3",
@@ -71,7 +71,7 @@ var config = {
 		},
 		{
 			module: "currentweather",
-			position: "top_left",
+			position: "top_right",
 			config: {
 				location: "Würzburg",
 				locationID: "3220898",  //ID from http://bulk.openweathermap.org/sample/; unzip the gz file and find your city

@@ -217,8 +217,8 @@ Module.register("currentweather",{
 		}
 
 		var temperature = document.createElement("span");
-		temperature.className = "bright";
-		temperature.innerHTML = " " + this.temperature.replace(".", this.config.decimalSymbol) + "&deg;" + degreeLabel;
+		temperature.className = "bright temp";
+		temperature.innerHTML = " " + this.temperature.replace(".", this.config.decimalSymbol) + "&deg;" + degreeLabel + "C";
 		large.appendChild(temperature);
 
 		if (this.config.showIndoorTemperature && this.indoorTemperature) {
@@ -228,7 +228,7 @@ Module.register("currentweather",{
 
 			var indoorTemperatureElem = document.createElement("span");
 			indoorTemperatureElem.className = "bright";
-			indoorTemperatureElem.innerHTML = " " + this.indoorTemperature.replace(".", this.config.decimalSymbol) + "&deg;" + degreeLabel;
+			indoorTemperatureElem.innerHTML = " " + this.indoorTemperature.replace(".", this.config.decimalSymbol) + "&deg;" + degreeLabel + "C";
 			large.appendChild(indoorTemperatureElem);
 		}
 
@@ -250,8 +250,8 @@ Module.register("currentweather",{
 			small.className = "normal medium";
 
 			var feelsLike = document.createElement("span");
-			feelsLike.className = "dimmed";
-			feelsLike.innerHTML = this.translate("FEELS") + " " + this.feelsLike + "&deg;" + degreeLabel;
+			feelsLike.className = "dimmed feallike";
+			feelsLike.innerHTML = this.translate("FEELS") + " " + this.feelsLike + "&deg;" + degreeLabel + "C";
 			small.appendChild(feelsLike);
 
 			wrapper.appendChild(small);
